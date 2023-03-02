@@ -1,0 +1,62 @@
+article {
+    float: left;
+    width: 25%;
+}
+
+article p {
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+button {
+    margin-right: 20px;
+}
+
+div {
+    float: right;
+    height: 140px;
+    position: relative;
+    top: 40px;
+    width: 70%;
+}
+
+div p {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+header {
+    margin: 20px 30px;
+    margin-bottom: 0;
+}
+
+main {
+    margin: 20px;
+    margin-top: 10px;
+}
+
+section {
+    background: #ddd;
+    float: left;
+    height: 220px;
+    margin: 1vw;
+    padding: 20px;
+    width: calc(100% / 2 - 2vw);
+}
+
+@media screen and (max-width:800px) {
+
+    section {
+        margin: 1vw 0;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:200px) {
+
+    p {
+        overflow: hidden;
+    }
+
+}
